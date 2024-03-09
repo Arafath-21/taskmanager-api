@@ -9,7 +9,7 @@ dotenv.config()
 const port = process.env.port || 3000
 
  //middleware
-app.use(express.static('./public')) 
+app.use(express.static('./src/public')) 
 app.use(cors())
 app.use(express.json())
 
